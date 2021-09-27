@@ -1,0 +1,17 @@
+{
+  "name": "twitter-clone",
+  "version": "0.1.0",
+  "description": "Twitter clone",
+  "keywords": ["twitter", "clone", "html", "css"],
+  "license": "MIT",
+  "author": "Dhanushka Chandimal <dhanushkachandimal11@gmail.com> (ijse.lk)",
+  "scripts": {
+    "clean": "rm -rf docs",
+    "build": "parcel build index.html 404.html --public-url ./ --out-dir docs",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
